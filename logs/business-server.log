@@ -1,0 +1,150 @@
+2023-06-13T20:45:26.814+08:00  INFO 15036 --- [restartedMain] c.e.b.BusinessServerApplication          : Starting BusinessServerApplication using Java 17.0.3.1 with PID 15036 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\business-server-10300\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T20:45:26.817+08:00  INFO 15036 --- [restartedMain] c.e.b.BusinessServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T20:45:26.857+08:00  INFO 15036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T20:45:26.857+08:00  INFO 15036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T20:45:27.681+08:00  INFO 15036 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e4090ff7-895d-3903-8ffb-014f7d1e1d5f
+2023-06-13T20:45:28.140+08:00  INFO 15036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10300 (http)
+2023-06-13T20:45:28.150+08:00  INFO 15036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T20:45:28.150+08:00  INFO 15036 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T20:45:28.215+08:00  INFO 15036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T20:45:28.216+08:00  INFO 15036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2023-06-13T20:45:28.263+08:00  WARN 15036 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'businessController': Injection of resource dependencies failed
+2023-06-13T20:45:28.265+08:00  INFO 15036 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-13T20:45:28.279+08:00  INFO 15036 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-13T20:45:28.296+08:00 ERROR 15036 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:03:31.184+08:00  INFO 22496 --- [restartedMain] c.e.b.BusinessServerApplication          : Starting BusinessServerApplication using Java 17.0.3.1 with PID 22496 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\business-server-10300\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T21:03:31.186+08:00  INFO 22496 --- [restartedMain] c.e.b.BusinessServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T21:03:31.223+08:00  INFO 22496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T21:03:31.223+08:00  INFO 22496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T21:03:31.865+08:00  INFO 22496 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=388f8056-d255-3d5f-9f75-b054a6cec8e7
+2023-06-13T21:03:32.277+08:00  INFO 22496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10300 (http)
+2023-06-13T21:03:32.285+08:00  INFO 22496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T21:03:32.285+08:00  INFO 22496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T21:03:32.349+08:00  INFO 22496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T21:03:32.350+08:00  INFO 22496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1125 ms
+2023-06-13T21:03:32.395+08:00  WARN 22496 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'businessController': Injection of resource dependencies failed
+2023-06-13T21:03:32.397+08:00  INFO 22496 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-13T21:03:32.411+08:00  INFO 22496 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-13T21:03:32.429+08:00 ERROR 22496 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:17:37.800+08:00  INFO 10864 --- [restartedMain] c.e.b.BusinessServerApplication          : Starting BusinessServerApplication using Java 17.0.3.1 with PID 10864 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\business-server-10300\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T21:17:37.802+08:00  INFO 10864 --- [restartedMain] c.e.b.BusinessServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T21:17:37.838+08:00  INFO 10864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T21:17:37.838+08:00  INFO 10864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T21:17:38.479+08:00  INFO 10864 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=388f8056-d255-3d5f-9f75-b054a6cec8e7
+2023-06-13T21:17:38.886+08:00  INFO 10864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10300 (http)
+2023-06-13T21:17:38.893+08:00  INFO 10864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T21:17:38.894+08:00  INFO 10864 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T21:17:38.957+08:00  INFO 10864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T21:17:38.957+08:00  INFO 10864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1119 ms
+2023-06-13T21:17:39.002+08:00  WARN 10864 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'businessController': Injection of resource dependencies failed
+2023-06-13T21:17:39.004+08:00  INFO 10864 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-13T21:17:39.019+08:00  INFO 10864 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-13T21:17:39.037+08:00 ERROR 10864 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:21:23.505+08:00  INFO 20260 --- [restartedMain] c.e.b.BusinessServerApplication          : Starting BusinessServerApplication using Java 17.0.3.1 with PID 20260 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\business-server-10300\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T21:21:23.507+08:00  INFO 20260 --- [restartedMain] c.e.b.BusinessServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T21:21:23.540+08:00  INFO 20260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T21:21:23.540+08:00  INFO 20260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T21:21:24.278+08:00  INFO 20260 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=388f8056-d255-3d5f-9f75-b054a6cec8e7
+2023-06-13T21:21:24.724+08:00  INFO 20260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10300 (http)
+2023-06-13T21:21:24.732+08:00  INFO 20260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T21:21:24.732+08:00  INFO 20260 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T21:21:24.799+08:00  INFO 20260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T21:21:24.800+08:00  INFO 20260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2023-06-13T21:21:24.843+08:00  WARN 20260 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'businessController': Injection of resource dependencies failed
+2023-06-13T21:21:24.845+08:00  INFO 20260 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-13T21:21:24.859+08:00  INFO 20260 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-13T21:21:24.875+08:00 ERROR 20260 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:22:37.505+08:00  INFO 16056 --- [restartedMain] c.e.b.BusinessServerApplication          : Starting BusinessServerApplication using Java 17.0.3.1 with PID 16056 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\business-server-10300\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T21:22:37.507+08:00  INFO 16056 --- [restartedMain] c.e.b.BusinessServerApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T21:22:37.543+08:00  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T21:22:37.543+08:00  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T21:22:38.153+08:00  INFO 16056 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=388f8056-d255-3d5f-9f75-b054a6cec8e7
+2023-06-13T21:22:38.549+08:00  INFO 16056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10300 (http)
+2023-06-13T21:22:38.556+08:00  INFO 16056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T21:22:38.557+08:00  INFO 16056 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T21:22:38.618+08:00  INFO 16056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T21:22:38.618+08:00  INFO 16056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2023-06-13T21:22:38.660+08:00  WARN 16056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'businessController': Injection of resource dependencies failed
+2023-06-13T21:22:38.662+08:00  INFO 16056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-13T21:22:38.675+08:00  INFO 16056 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-13T21:22:38.694+08:00 ERROR 16056 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+

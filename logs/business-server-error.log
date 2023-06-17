@@ -1,0 +1,75 @@
+2023-06-13T20:45:28.296+08:00 ERROR 15036 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:03:32.429+08:00 ERROR 22496 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:17:39.037+08:00 ERROR 10864 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:21:24.875+08:00 ERROR 20260 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+
+2023-06-13T21:22:38.694+08:00 ERROR 16056 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.feignapi.clients.FoodClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.feignapi.clients.FoodClient' in your configuration.
+

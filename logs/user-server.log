@@ -1,0 +1,12 @@
+2023-06-13T20:45:08.410+08:00  INFO 22536 --- [restartedMain] c.e.u.UserServerApplication              : Starting UserServerApplication using Java 17.0.3.1 with PID 22536 (D:\Program Files\Git\Java2022Soft\ElmSpringCloud\user-server-10100\target\classes started by 周门 in D:\Program Files\Git\Java2022Soft\ElmSpringCloud)
+2023-06-13T20:45:08.418+08:00  INFO 22536 --- [restartedMain] c.e.u.UserServerApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-06-13T20:45:08.468+08:00  INFO 22536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-13T20:45:08.468+08:00  INFO 22536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-13T20:45:09.451+08:00  INFO 22536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10100 (http)
+2023-06-13T20:45:09.460+08:00  INFO 22536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13T20:45:09.460+08:00  INFO 22536 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-13T20:45:09.519+08:00  INFO 22536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13T20:45:09.519+08:00  INFO 22536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2023-06-13T20:45:10.133+08:00  INFO 22536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-13T20:45:10.166+08:00  INFO 22536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10100 (http) with context path ''
+2023-06-13T20:45:10.175+08:00  INFO 22536 --- [restartedMain] c.e.u.UserServerApplication              : Started UserServerApplication in 2.337 seconds (process running for 3.02)
