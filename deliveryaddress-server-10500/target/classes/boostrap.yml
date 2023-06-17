@@ -1,0 +1,30 @@
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/elme
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 1.117.100.77
+    port: 5672
+    username: root
+    password: root
+  cloud:
+    config:
+      name: deliveryaddress-server-10500
+      profile: dev
+      label: master
+      discovery: #Orderacos???config server??
+        enabled: true #??????
+        service-id: config-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:13000/eureka
+  instance:
+    prefer-ip-address: true #??ip???Eureka??
+    instance-id: ${spring.cloud.client.ip-address}:${server.port} #????????ID
+    lease-renewal-interval-in-seconds: 5 #??????
+    lease-expiration-duration-in-seconds: 15 #??????

@@ -1,0 +1,37 @@
+
+server:
+  port: 10500
+
+spring:
+  application:
+    name: deliveryaddress-server
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/elme
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+
+logging:
+  level:
+    root: info
+  config: classpath:logging-config.xml
+  file:
+    name: ${logging.file.path}/${spring.application.name}.log
+    path: logs
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
